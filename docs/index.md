@@ -20,8 +20,6 @@ This library aims to manage the paths of streaming assets throughout the Forgott
     - ChiefResourcePathManager
     - MapGenResourcePathInterface
 
-<br>
-
 ## Usage
 > [!IMPORTANT]\
 > This project is for UI development in Unity. Informs that no other game engine supports it
