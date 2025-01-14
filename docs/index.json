@@ -47,6 +47,6 @@
   "index.html": {
     "href": "index.html",
     "title": "| ResourcePathManagementLib",
-    "keywords": "ResourcePathManagementLib Abstract This library aims to manage the paths of streaming assets throughout the Forgotten project Features Resource Path Managment ChiefResourcePathManager MapGenResourcePathInterface Usage [!IMPORTANT] This project is for UI development in Unity. Informs that no other game engine supports it Dependency UnityEngine.dll"
+    "keywords": "ResourcePathManagementLib Abstract This library aims to manage the paths of streaming assets throughout the Forgotten project Features Resource Path Managment ChiefResourcePathManager MapGenResourcePathInterface Usage [!IMPORTANT] This project is for UI development in Unity. Informs that no other game engine supports it Dependency UnityEngine.dll Releases"
   }
 }

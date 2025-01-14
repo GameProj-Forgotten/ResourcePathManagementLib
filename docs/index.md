@@ -28,3 +28,5 @@ This library aims to manage the paths of streaming assets throughout the Forgott
 ```
 UnityEngine.dll
 ```
+
+## <a href="https://github.com/GameProj-Forgotten/ResourcePathManagementLib/releases">Releases</a>
