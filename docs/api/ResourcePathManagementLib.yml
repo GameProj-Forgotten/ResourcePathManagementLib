@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourcePathManagementLib
+  commentId: N:ResourcePathManagementLib
+  id: ResourcePathManagementLib
+  children:
+  - ResourcePathManagementLib.ChiefResourcePathManager
+  - ResourcePathManagementLib.MapGenResourcePathInterface
+  - ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+  - ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+  - ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  - ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+  langs:
+  - csharp
+  - vb
+  name: ResourcePathManagementLib
+  nameWithType: ResourcePathManagementLib
+  fullName: ResourcePathManagementLib
+  type: Namespace
+  assemblies:
+  - ResourcePathManagementLib
+references:
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface
+  commentId: T:ResourcePathManagementLib.MapGenResourcePathInterface
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  name: MapGenResourcePathInterface
+  nameWithType: MapGenResourcePathInterface
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  commentId: T:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  name: MapGenResourcePathInterface.InputResourcePathData
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  spec.csharp:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+    name: InputResourcePathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html
+  spec.vb:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+    name: InputResourcePathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+  commentId: T:ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  name: MapGenResourcePathInterface.OutputResourcePathData
+  nameWithType: MapGenResourcePathInterface.OutputResourcePathData
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+  spec.csharp:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+    name: OutputResourcePathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData.html
+  spec.vb:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+    name: OutputResourcePathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData.html
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+  commentId: T:ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  name: MapGenResourcePathInterface.AgentBinaryResourcePathData
+  nameWithType: MapGenResourcePathInterface.AgentBinaryResourcePathData
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+  spec.csharp:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+    name: AgentBinaryResourcePathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData.html
+  spec.vb:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+    name: AgentBinaryResourcePathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData.html
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+  commentId: T:ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  name: MapGenResourcePathInterface.GameSaveMetadataPathData
+  nameWithType: MapGenResourcePathInterface.GameSaveMetadataPathData
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+  spec.csharp:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+    name: GameSaveMetadataPathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData.html
+  spec.vb:
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.html
+  - name: .
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+    name: GameSaveMetadataPathData
+    href: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData.html
+- uid: ResourcePathManagementLib.ChiefResourcePathManager
+  commentId: T:ResourcePathManagementLib.ChiefResourcePathManager
+  href: ResourcePathManagementLib.ChiefResourcePathManager.html
+  name: ChiefResourcePathManager
+  nameWithType: ChiefResourcePathManager
+  fullName: ResourcePathManagementLib.ChiefResourcePathManager

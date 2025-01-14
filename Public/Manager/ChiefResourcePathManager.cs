@@ -9,13 +9,20 @@ using CommonUtilLib.ThreadSafe;
 
 namespace ResourcePathManagementLib
 {
+    /// <summary>
+    /// This class is a singleton class that manages the resource paths for the entire project.
+    /// </summary>
     public sealed class ChiefResourcePathManager : SingleTon<ChiefResourcePathManager>, IDisposable
     {
-        private MapGenResourcePathData m_mapGenResourcePathData;
+        private readonly MapGenResourcePathData m_mapGenResourcePathData;
 
 
+        /// <summary>
+        /// Loads the resource paths for the entire project.
+        /// </summary>
         public ChiefResourcePathManager()
         {
+            m_mapGenResourcePathData = new MapGenResourcePathData();
             m_mapGenResourcePathData.Init();
         }
         ~ChiefResourcePathManager()
@@ -31,7 +38,10 @@ namespace ResourcePathManagementLib
             }
         }
 
-        public void Dispose()
+        /// <summary>
+        /// Disposes the resource paths for the entire project.
+        /// </summary>
+        public new void Dispose()
         {
             Dispose(true);
         }

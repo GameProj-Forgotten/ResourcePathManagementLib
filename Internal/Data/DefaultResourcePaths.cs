@@ -9,7 +9,10 @@ using UnityEngine;
 
 namespace ResourcePathManagementLib
 {
-    internal static class DefaultResourcePaths
+    /// <summary>
+    /// This class is a static class that contains the default resource paths for the map generation process.
+    /// </summary>
+    internal static class DefaultMapGenResourcePaths
     {
         internal static string StreamingAssetsPath
         {

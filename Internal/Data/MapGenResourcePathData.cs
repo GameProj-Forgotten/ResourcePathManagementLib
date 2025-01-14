@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ResourcePathManagementLib
 {
+    /// <summary>
+    /// This struct contains the resource paths for the map generation process.
+    /// </summary>
     internal struct MapGenResourcePathData
     {
         internal struct InputResourcePathData

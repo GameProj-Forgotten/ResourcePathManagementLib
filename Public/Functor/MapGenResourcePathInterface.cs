@@ -8,15 +8,21 @@ using System.Threading.Tasks;
 
 namespace ResourcePathManagementLib
 {
+    /// <summary>
+    /// This class is a static class that manages the resource paths for the map generation process.
+    /// </summary>
     public static class MapGenResourcePathInterface
     {
+        /// <summary>
+        /// This class contains the input resource paths for the map generation process.
+        /// </summary>
         public static class InputResourcePathData
         {
             public static string AbstractInputResourceFullPath
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.AbstractInputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -31,7 +37,7 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.BasicPathGenerationInputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -46,7 +52,7 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.RegionSelectionInputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -61,7 +67,7 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.InputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.InputResourcePath.MiddleLayerInputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -73,13 +79,16 @@ namespace ResourcePathManagementLib
                 }
             }
         }
+        /// <summary>
+        /// This class contains the output resource paths for the map generation process.
+        /// </summary>
         public static class OutputResourcePathData
         {
             public static string BasicPathGenerationOutputResourceFullPath
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.BasicPathGenerationOutputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -94,7 +103,7 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.RegionSelectionOutputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -109,7 +118,7 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.MiddleLayerOutputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -124,7 +133,7 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.OutputResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.OutputResourcePath.TileKindOutputResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -136,13 +145,16 @@ namespace ResourcePathManagementLib
                 }
             }
         }
+        /// <summary>
+        /// This class contains the agent binary resource paths for the map generation process.
+        /// </summary>
         public static class AgentBinaryResourcePathData
         {
             public static string AgentBinaryResourceFullPath
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.AgentBinaryResourcePath.AgentBinaryResourceBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.AgentBinaryResourcePath.AgentBinaryResourceBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.AgentBinaryResourcePath.AgentBinaryResourcePath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -154,13 +166,16 @@ namespace ResourcePathManagementLib
                 }
             }
         }
+        /// <summary>
+        /// This class contains the game save metadata resource paths for the each game save.
+        /// </summary>
         public static class GameSaveMetadataPathData
         {
             public static string GameSaveMetadataFullPath
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.GameSaveMetadataPath.GameSaveMetadataBasePath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.GameSaveMetadataPath.GameSaveMetadataBasePath);
                     string resultPath = Path.Combine(directoryPath, ChiefResourcePathManager.Instance.MapGenResourcePathData.GameSaveMetadataPath.GameSaveMetadataPath);
 
                     if (string.IsNullOrEmpty(resultPath))
@@ -179,8 +194,8 @@ namespace ResourcePathManagementLib
             {
                 get
                 {
-                    string directoryPath = Path.Combine(DefaultResourcePaths.StreamingAssetsPath, DefaultResourcePaths.MapGenResourcePathData.MapGenResourcePathDataBasePath);
-                    return Path.Combine(directoryPath, DefaultResourcePaths.MapGenResourcePathData.MapGenResourcePathDataPath);
+                    string directoryPath = Path.Combine(DefaultMapGenResourcePaths.StreamingAssetsPath, DefaultMapGenResourcePaths.MapGenResourcePathData.MapGenResourcePathDataBasePath);
+                    return Path.Combine(directoryPath, DefaultMapGenResourcePaths.MapGenResourcePathData.MapGenResourcePathDataPath);
                 }
             }
         }

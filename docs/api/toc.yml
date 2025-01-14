@@ -1,0 +1,18 @@
+### YamlMime:TableOfContent
+items:
+- uid: ResourcePathManagementLib
+  name: ResourcePathManagementLib
+  items:
+  - uid: ResourcePathManagementLib.ChiefResourcePathManager
+    name: ChiefResourcePathManager
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface
+    name: MapGenResourcePathInterface
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData
+    name: MapGenResourcePathInterface.AgentBinaryResourcePathData
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData
+    name: MapGenResourcePathInterface.GameSaveMetadataPathData
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+    name: MapGenResourcePathInterface.InputResourcePathData
+  - uid: ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData
+    name: MapGenResourcePathInterface.OutputResourcePathData
+memberLayout: SamePage

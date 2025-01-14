@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  commentId: T:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  id: MapGenResourcePathInterface.InputResourcePathData
+  parent: ResourcePathManagementLib
+  children:
+  - ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  - ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  - ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  - ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  langs:
+  - csharp
+  - vb
+  name: MapGenResourcePathInterface.InputResourcePathData
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  type: Class
+  source:
+    remote:
+      path: Public/Functor/MapGenResourcePathInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourcePathManagementLib.git
+    id: InputResourcePathData
+    path: ../Public/Functor/MapGenResourcePathInterface.cs
+    startLine: 12
+  assemblies:
+  - ResourcePathManagementLib
+  namespace: ResourcePathManagementLib
+  syntax:
+    content: public static class MapGenResourcePathInterface.InputResourcePathData
+    content.vb: Public Module MapGenResourcePathInterface.InputResourcePathData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  commentId: P:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  id: AbstractInputResourceFullPath
+  parent: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  langs:
+  - csharp
+  - vb
+  name: AbstractInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  type: Property
+  source:
+    remote:
+      path: Public/Functor/MapGenResourcePathInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourcePathManagementLib.git
+    id: AbstractInputResourceFullPath
+    path: ../Public/Functor/MapGenResourcePathInterface.cs
+    startLine: 14
+  assemblies:
+  - ResourcePathManagementLib
+  namespace: ResourcePathManagementLib
+  syntax:
+    content: public static string AbstractInputResourceFullPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AbstractInputResourceFullPath As String
+  overload: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath*
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  commentId: P:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  id: BasicPathGenerationInputResourceFullPath
+  parent: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  langs:
+  - csharp
+  - vb
+  name: BasicPathGenerationInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  type: Property
+  source:
+    remote:
+      path: Public/Functor/MapGenResourcePathInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourcePathManagementLib.git
+    id: BasicPathGenerationInputResourceFullPath
+    path: ../Public/Functor/MapGenResourcePathInterface.cs
+    startLine: 29
+  assemblies:
+  - ResourcePathManagementLib
+  namespace: ResourcePathManagementLib
+  syntax:
+    content: public static string BasicPathGenerationInputResourceFullPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property BasicPathGenerationInputResourceFullPath As String
+  overload: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath*
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  commentId: P:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  id: RegionSelectionInputResourceFullPath
+  parent: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  langs:
+  - csharp
+  - vb
+  name: RegionSelectionInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  type: Property
+  source:
+    remote:
+      path: Public/Functor/MapGenResourcePathInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourcePathManagementLib.git
+    id: RegionSelectionInputResourceFullPath
+    path: ../Public/Functor/MapGenResourcePathInterface.cs
+    startLine: 44
+  assemblies:
+  - ResourcePathManagementLib
+  namespace: ResourcePathManagementLib
+  syntax:
+    content: public static string RegionSelectionInputResourceFullPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RegionSelectionInputResourceFullPath As String
+  overload: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath*
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  commentId: P:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  id: MiddleLayerInputResourceFullPath
+  parent: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData
+  langs:
+  - csharp
+  - vb
+  name: MiddleLayerInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  type: Property
+  source:
+    remote:
+      path: Public/Functor/MapGenResourcePathInterface.cs
+      branch: master
+      repo: https://github.com/GameProj-Forgotten/ResourcePathManagementLib.git
+    id: MiddleLayerInputResourceFullPath
+    path: ../Public/Functor/MapGenResourcePathInterface.cs
+    startLine: 59
+  assemblies:
+  - ResourcePathManagementLib
+  namespace: ResourcePathManagementLib
+  syntax:
+    content: public static string MiddleLayerInputResourceFullPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MiddleLayerInputResourceFullPath As String
+  overload: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath*
+references:
+- uid: ResourcePathManagementLib
+  commentId: N:ResourcePathManagementLib
+  href: ResourcePathManagementLib.html
+  name: ResourcePathManagementLib
+  nameWithType: ResourcePathManagementLib
+  fullName: ResourcePathManagementLib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath*
+  commentId: Overload:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html#ResourcePathManagementLib_MapGenResourcePathInterface_InputResourcePathData_AbstractInputResourceFullPath
+  name: AbstractInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.AbstractInputResourceFullPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath*
+  commentId: Overload:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html#ResourcePathManagementLib_MapGenResourcePathInterface_InputResourcePathData_BasicPathGenerationInputResourceFullPath
+  name: BasicPathGenerationInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.BasicPathGenerationInputResourceFullPath
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath*
+  commentId: Overload:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html#ResourcePathManagementLib_MapGenResourcePathInterface_InputResourcePathData_RegionSelectionInputResourceFullPath
+  name: RegionSelectionInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.RegionSelectionInputResourceFullPath
+- uid: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath*
+  commentId: Overload:ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  href: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html#ResourcePathManagementLib_MapGenResourcePathInterface_InputResourcePathData_MiddleLayerInputResourceFullPath
+  name: MiddleLayerInputResourceFullPath
+  nameWithType: MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath
+  fullName: ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.MiddleLayerInputResourceFullPath

@@ -7,42 +7,42 @@ using System.Threading.Tasks;
 
 namespace ResourcePathManagementLib
 {
+    /// <summary>
+    /// This class is a static class that contains the utility methods for the MapGenResourcePathData struct.
+    /// </summary>
     internal static class MapGenResourcePathDataUtil
     {
         internal static void Init(this MapGenResourcePathData resourcePathData)
         {
-            resourcePathData = new MapGenResourcePathData()
+            resourcePathData.InputResourcePath = new MapGenResourcePathData.InputResourcePathData()
             {
-                InputResourcePath = new MapGenResourcePathData.InputResourcePathData()
-                {
-                    InputResourceBasePath = DefaultResourcePaths.InputResourcePathData.DefaultInputResourceBasePath,
+                InputResourceBasePath = DefaultMapGenResourcePaths.InputResourcePathData.DefaultInputResourceBasePath,
 
-                    AbstractInputResourcePath = DefaultResourcePaths.InputResourcePathData.DefaultAbstractInputResourcePath,
-                    BasicPathGenerationInputResourcePath = DefaultResourcePaths.InputResourcePathData.DefaultBasicPathGenerationInputResourcePath,
-                    RegionSelectionInputResourcePath = DefaultResourcePaths.InputResourcePathData.DefaultRegionSelectionInputResourcePath,
-                    MiddleLayerInputResourcePath = DefaultResourcePaths.InputResourcePathData.DefaultMiddleLayerInputResourcePath
-                },
-                OutputResourcePath = new MapGenResourcePathData.OutputResourcePathData()
-                {
-                    OutputResourceBasePath = DefaultResourcePaths.OutputResourcePathData.DefaultOutputResourceBasePath,
+                AbstractInputResourcePath = DefaultMapGenResourcePaths.InputResourcePathData.DefaultAbstractInputResourcePath,
+                BasicPathGenerationInputResourcePath = DefaultMapGenResourcePaths.InputResourcePathData.DefaultBasicPathGenerationInputResourcePath,
+                RegionSelectionInputResourcePath = DefaultMapGenResourcePaths.InputResourcePathData.DefaultRegionSelectionInputResourcePath,
+                MiddleLayerInputResourcePath = DefaultMapGenResourcePaths.InputResourcePathData.DefaultMiddleLayerInputResourcePath
+            };
+            resourcePathData.OutputResourcePath = new MapGenResourcePathData.OutputResourcePathData()
+            {
+                OutputResourceBasePath = DefaultMapGenResourcePaths.OutputResourcePathData.DefaultOutputResourceBasePath,
 
-                    BasicPathGenerationOutputResourcePath = DefaultResourcePaths.OutputResourcePathData.DefaultBasicPathGenerationOutputResourcePath,
-                    RegionSelectionOutputResourcePath = DefaultResourcePaths.OutputResourcePathData.DefaultRegionSelectionOutputResourcePath,
-                    MiddleLayerOutputResourcePath = DefaultResourcePaths.OutputResourcePathData.DefaultMiddleLayerOutputResourcePath,
-                    TileKindOutputResourcePath = DefaultResourcePaths.OutputResourcePathData.DefaultTileKindOutputResourcePath
-                },
-                AgentBinaryResourcePath = new MapGenResourcePathData.AgentBinaryResourcePathData()
-                {
-                    AgentBinaryResourceBasePath = DefaultResourcePaths.AgentBinaryResourcePathData.DefaultAgentBinaryResourceBasePath,
+                BasicPathGenerationOutputResourcePath = DefaultMapGenResourcePaths.OutputResourcePathData.DefaultBasicPathGenerationOutputResourcePath,
+                RegionSelectionOutputResourcePath = DefaultMapGenResourcePaths.OutputResourcePathData.DefaultRegionSelectionOutputResourcePath,
+                MiddleLayerOutputResourcePath = DefaultMapGenResourcePaths.OutputResourcePathData.DefaultMiddleLayerOutputResourcePath,
+                TileKindOutputResourcePath = DefaultMapGenResourcePaths.OutputResourcePathData.DefaultTileKindOutputResourcePath
+            };
+            resourcePathData.AgentBinaryResourcePath = new MapGenResourcePathData.AgentBinaryResourcePathData()
+            {
+                AgentBinaryResourceBasePath = DefaultMapGenResourcePaths.AgentBinaryResourcePathData.DefaultAgentBinaryResourceBasePath,
 
-                    AgentBinaryResourcePath = DefaultResourcePaths.AgentBinaryResourcePathData.DefaultAgentBinaryResourcePath
-                },
-                GameSaveMetadataPath = new MapGenResourcePathData.GameSaveMetadataPathData()
-                {
-                    GameSaveMetadataBasePath = DefaultResourcePaths.GameSaveMetadataPathData.DefaultGameSaveMetadataBasePath,
+                AgentBinaryResourcePath = DefaultMapGenResourcePaths.AgentBinaryResourcePathData.DefaultAgentBinaryResourcePath
+            };
+            resourcePathData.GameSaveMetadataPath = new MapGenResourcePathData.GameSaveMetadataPathData()
+            {
+                GameSaveMetadataBasePath = DefaultMapGenResourcePaths.GameSaveMetadataPathData.DefaultGameSaveMetadataBasePath,
 
-                    GameSaveMetadataPath = DefaultResourcePaths.GameSaveMetadataPathData.DefaultGameSaveMetadataPath
-                }
+                GameSaveMetadataPath = DefaultMapGenResourcePaths.GameSaveMetadataPathData.DefaultGameSaveMetadataPath
             };
         }
         internal static void Dispose(this MapGenResourcePathData resourcePathData)

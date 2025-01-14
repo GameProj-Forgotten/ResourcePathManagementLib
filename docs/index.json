@@ -1,0 +1,52 @@
+{
+  "api/ResourcePathManagementLib.ChiefResourcePathManager.html": {
+    "href": "api/ResourcePathManagementLib.ChiefResourcePathManager.html",
+    "title": "Class ChiefResourcePathManager | ResourcePathManagementLib",
+    "keywords": "Class ChiefResourcePathManager Namespace ResourcePathManagementLib Assembly ResourcePathManagementLib.dll public sealed class ChiefResourcePathManager : SingleTon<ChiefResourcePathManager>, IDisposable Inheritance object SingleTon<ChiefResourcePathManager> ChiefResourcePathManager Implements IDisposable Inherited Members SingleTon<ChiefResourcePathManager>.Instance object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() Constructors ChiefResourcePathManager() public ChiefResourcePathManager() Methods Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. public void Dispose() ~ChiefResourcePathManager() protected ~ChiefResourcePathManager()"
+  },
+  "api/ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData.html": {
+    "href": "api/ResourcePathManagementLib.MapGenResourcePathInterface.AgentBinaryResourcePathData.html",
+    "title": "Class MapGenResourcePathInterface.AgentBinaryResourcePathData | ResourcePathManagementLib",
+    "keywords": "Class MapGenResourcePathInterface.AgentBinaryResourcePathData Namespace ResourcePathManagementLib Assembly ResourcePathManagementLib.dll public static class MapGenResourcePathInterface.AgentBinaryResourcePathData Inheritance object MapGenResourcePathInterface.AgentBinaryResourcePathData Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties AgentBinaryResourceFullPath public static string AgentBinaryResourceFullPath { get; } Property Value string"
+  },
+  "api/ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData.html": {
+    "href": "api/ResourcePathManagementLib.MapGenResourcePathInterface.GameSaveMetadataPathData.html",
+    "title": "Class MapGenResourcePathInterface.GameSaveMetadataPathData | ResourcePathManagementLib",
+    "keywords": "Class MapGenResourcePathInterface.GameSaveMetadataPathData Namespace ResourcePathManagementLib Assembly ResourcePathManagementLib.dll public static class MapGenResourcePathInterface.GameSaveMetadataPathData Inheritance object MapGenResourcePathInterface.GameSaveMetadataPathData Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties GameSaveMetadataFullPath public static string GameSaveMetadataFullPath { get; } Property Value string"
+  },
+  "api/ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html": {
+    "href": "api/ResourcePathManagementLib.MapGenResourcePathInterface.InputResourcePathData.html",
+    "title": "Class MapGenResourcePathInterface.InputResourcePathData | ResourcePathManagementLib",
+    "keywords": "Class MapGenResourcePathInterface.InputResourcePathData Namespace ResourcePathManagementLib Assembly ResourcePathManagementLib.dll public static class MapGenResourcePathInterface.InputResourcePathData Inheritance object MapGenResourcePathInterface.InputResourcePathData Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties AbstractInputResourceFullPath public static string AbstractInputResourceFullPath { get; } Property Value string BasicPathGenerationInputResourceFullPath public static string BasicPathGenerationInputResourceFullPath { get; } Property Value string MiddleLayerInputResourceFullPath public static string MiddleLayerInputResourceFullPath { get; } Property Value string RegionSelectionInputResourceFullPath public static string RegionSelectionInputResourceFullPath { get; } Property Value string"
+  },
+  "api/ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData.html": {
+    "href": "api/ResourcePathManagementLib.MapGenResourcePathInterface.OutputResourcePathData.html",
+    "title": "Class MapGenResourcePathInterface.OutputResourcePathData | ResourcePathManagementLib",
+    "keywords": "Class MapGenResourcePathInterface.OutputResourcePathData Namespace ResourcePathManagementLib Assembly ResourcePathManagementLib.dll public static class MapGenResourcePathInterface.OutputResourcePathData Inheritance object MapGenResourcePathInterface.OutputResourcePathData Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Properties BasicPathGenerationOutputResourceFullPath public static string BasicPathGenerationOutputResourceFullPath { get; } Property Value string MiddleLayerOutputResourceFullPath public static string MiddleLayerOutputResourceFullPath { get; } Property Value string RegionSelectionOutputResourceFullPath public static string RegionSelectionOutputResourceFullPath { get; } Property Value string TileKindOutputResourceFullPath public static string TileKindOutputResourceFullPath { get; } Property Value string"
+  },
+  "api/ResourcePathManagementLib.MapGenResourcePathInterface.html": {
+    "href": "api/ResourcePathManagementLib.MapGenResourcePathInterface.html",
+    "title": "Class MapGenResourcePathInterface | ResourcePathManagementLib",
+    "keywords": "Class MapGenResourcePathInterface Namespace ResourcePathManagementLib Assembly ResourcePathManagementLib.dll public static class MapGenResourcePathInterface Inheritance object MapGenResourcePathInterface Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone()"
+  },
+  "api/ResourcePathManagementLib.html": {
+    "href": "api/ResourcePathManagementLib.html",
+    "title": "Namespace ResourcePathManagementLib | ResourcePathManagementLib",
+    "keywords": "Namespace ResourcePathManagementLib Classes ChiefResourcePathManager MapGenResourcePathInterface MapGenResourcePathInterface.AgentBinaryResourcePathData MapGenResourcePathInterface.GameSaveMetadataPathData MapGenResourcePathInterface.InputResourcePathData MapGenResourcePathInterface.OutputResourcePathData"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | ResourcePathManagementLib",
+    "keywords": "Getting Started This library is written assuming that it will be used in the form of a dll. Therefore, it can be applied generally by referencing the dll to the project. However, if you want a detailed official manual, please refer to the following materials: .Net - Manage references in a project Unity - Integrating third-party code libraries (plug-ins)"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | ResourcePathManagementLib",
+    "keywords": "Introduction ResourcePathManagementLib is a library that focuses on efficiently storing and accessing the paths of streaming assets throughout the Forgotten project. The main resource paths handled by ResourcePathManagementLib are as follows: Map generation Please note that this library is built based on .Net Framework 4.8. The representative functions provided by this library are as follows: ResourcePathManagementLib └── Resource Path Management ├── sealed class ChiefResourcePathManager : SingleTon<ChiefResourcePathManager>, IDisposable └── static class MapGenResourcePathInterface"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| ResourcePathManagementLib",
+    "keywords": "ResourcePathManagementLib Abstract This library aims to manage the paths of streaming assets throughout the Forgotten project Features Resource Path Managment ChiefResourcePathManager MapGenResourcePathInterface Usage [!IMPORTANT] This project is for UI development in Unity. Informs that no other game engine supports it Dependency UnityEngine.dll"
+  }
+}
