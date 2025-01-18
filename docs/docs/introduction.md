@@ -1,9 +1,6 @@
 # Introduction
 ResourcePathManagementLib is a library that focuses on efficiently storing and accessing the paths of streaming assets throughout the Forgotten project.
 
-The main resource paths handled by ResourcePathManagementLib are as follows:
-- Map generation
-
 <br>
 
 Please note that this library is built based on .Net Framework 4.8.
